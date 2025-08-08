@@ -6,9 +6,9 @@ export const metadata = { title: "About — Auralytix AI", description: "Mission
 
 export default function AboutPage() {
   const leaders = [
-    { name: "Alex Morgan", role: "CEO", avatar: "/images/leader-1.jpg" },
-    { name: "Jordan Patel", role: "CTO", avatar: "/images/leader-2.jpg" },
-    { name: "Riley Chen", role: "CPO", avatar: "/images/leader-3.png" },
+    { name: "Alex Morgan", role: "CEO", avatar: "https://img.freepik.com/free-photo/portrait-man-laughing_23-2148859448.jpg?ga=GA1.1.1274727107.1754679242&semt=ais_incoming&w=740&q=80" },
+    { name: "Jordan Patel", role: "CTO", avatar: "https://img.freepik.com/free-photo/smiley-bearded-man-black-shirt_23-2148500539.jpg?ga=GA1.1.1274727107.1754679242&semt=ais_incoming&w=740&q=80" },
+    { name: "Riley Chen", role: "CPO", avatar: "https://img.freepik.com/free-photo/portrait-smiling-blonde-woman_23-2148316635.jpg?ga=GA1.1.1274727107.1754679242&semt=ais_incoming&w=740&q=80" },
   ]
   return (
     <Container className="py-10 space-y-10">

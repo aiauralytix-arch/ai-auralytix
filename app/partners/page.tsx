@@ -11,7 +11,7 @@ export default function PartnersPage() {
       <div className="grid gap-6 md:grid-cols-3">
         {partners.map(p => (
           <div key={p.name} className="rounded-2xl border p-6 bg-card shadow-glass">
-            <div className="mb-4 h-10 relative">
+            <div className="mb-4 h-36 relative">
               <Image src={p.logo || "/placeholder.svg"} alt={`${p.name} logo`} fill className="object-contain" />
             </div>
             <div className="font-medium">{p.name}</div>

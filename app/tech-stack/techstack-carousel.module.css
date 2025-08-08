@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  overflow: hidden;
+
+  /* fade edges for a polished look */
+  -webkit-mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem; /* ~20px */
+  width: max-content;
+
+  /* Motion */
+  animation-name: scroll-x;
+  animation-duration: var(--duration, 28s);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: var(--direction, normal);
+  will-change: transform;
+}
+
+.pauseOnHover:hover .track {
+  animation-play-state: paused;
+}
+
+.item {
+  list-style: none;
+  flex: 0 0 auto;
+}
+
+/* Seamless infinite scroll with duplicated content */
+@keyframes scroll-x {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /* Shift by half of the track width because the content is duplicated once */
+    transform: translateX(-50%);
+  }
+}

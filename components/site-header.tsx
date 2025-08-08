@@ -17,7 +17,7 @@ export function SiteHeader() {
       <div className="container-base flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/images/logo-mark.png"
+            src="/images/auralytics logo.png"
             width={28}
             height={28}
             alt="Auralytix AI logo mark"
@@ -30,8 +30,8 @@ export function SiteHeader() {
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuTrigger>Solutions</NavigationMenuTrigger>
-              <NavigationMenuContent>
-                <div className="grid w-[640px] grid-cols-2 gap-4 p-4">
+              <NavigationMenuContent >
+                <div className="grid w-[640px] grid-cols-2 gap-4 p-4 bg-white">
                   <MegaLink href="/solutions" title="Overview" desc="AI, data, and platform outcomes." />
                   <MegaLink href="/solutions/ai-product-development" title="AI Product Development" desc="Ship AI-first experiences." />
                   <MegaLink href="/solutions/platform-modernization" title="Platform Modernization" desc="Cloud-native, cost-optimized." />
@@ -43,7 +43,7 @@ export function SiteHeader() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Industries</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <div className="grid w-[540px] grid-cols-2 gap-4 p-4">
+                <div className="grid w-[540px] grid-cols-2 gap-4 p-4 bg-white">
                   <MegaLink href="/industries" title="Overview" desc="Vertical expertise." />
                   <MegaLink href="/industries/fintech" title="Fintech" desc="Risk, KYC, payments." />
                   <MegaLink href="/industries/healthcare" title="Healthcare" desc="Clinical data, PHI ready." />
@@ -55,14 +55,12 @@ export function SiteHeader() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Resources</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <div className="grid w-[620px] grid-cols-3 gap-4 p-4">
-                  <MegaLink href="/resources" title="Resources" desc="Blogs, guides, webinars." />
-                  <MegaLink href="/resources/blog" title="Blog" desc="Engineering insights." />
+                <div className="grid w-[620px] grid-cols-3 gap-4 p-4 bg-white">
+                  <MegaLink href="/resources" title="Resources" desc="Guides, webinars." />
                   <MegaLink href="/resources/guides" title="Guides" desc="How we build." />
                   <MegaLink href="/resources/whitepapers" title="Whitepapers" desc="Deep dives." />
                   <MegaLink href="/resources/webinars" title="Webinars" desc="On-demand talks." />
                   <MegaLink href="/changelog" title="Changelog" desc="What changed." />
-                  <MegaLink href="/docs" title="Docs" desc="Developer docs." />
                 </div>
               </NavigationMenuContent>
             </NavigationMenuItem>
@@ -74,11 +72,11 @@ export function SiteHeader() {
             <NavigationMenuItem>
               <NavigationMenuTrigger>Company</NavigationMenuTrigger>
               <NavigationMenuContent>
-                <div className="grid w-[560px] grid-cols-2 gap-4 p-4">
+                <div className="grid w-[560px] grid-cols-2 gap-4 p-4 bg-white">
                   <MegaLink href="/about" title="About" desc="Mission, values, leadership." />
                   <MegaLink href="/careers" title="Careers" desc="Build with us." />
                   <MegaLink href="/partners" title="Partners" desc="Ecosystem & tiers." />
-                  <MegaLink href="/customers" title="Customers" desc="Logo wall & quotes." />
+                  <MegaLink href="/tech-stack" title="Tech Stack" desc="Logo wall & quotes." />
                   <MegaLink href="/press" title="Press" desc="Press kit & bios." />
                   <MegaLink href="/security" title="Security & Compliance" desc="SOC 2-like practices." />
                 </div>
@@ -98,9 +96,6 @@ export function SiteHeader() {
         </NavigationMenu>
         <div className="flex items-center gap-2">
           <ModeToggle />
-          <Link href="/docs">
-            <Button variant="ghost" size="sm">Docs</Button>
-          </Link>
           <Link href="/pricing">
             <Button size="sm" className="rounded-2xl">Get Started</Button>
           </Link>

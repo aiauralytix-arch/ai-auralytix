@@ -1,11 +1,10 @@
 import { Container } from "@/components/container"
 import Link from "next/link"
 
-export const metadata = { title: "Resources — Auralytix AI", description: "Blogs, guides, whitepapers, webinars." }
+export const metadata = { title: "Resources — Auralytix AI", description: "Guides, whitepapers, webinars." }
 
 export default function ResourcesPage() {
   const items = [
-    ["Blog", "Engineering insights and product stories.", "/resources/blog"],
     ["Guides", "Step-by-step how we build.", "/resources/guides"],
     ["Whitepapers", "Architectural deep dives.", "/resources/whitepapers"],
     ["Webinars", "On-demand technical sessions.", "/resources/webinars"],

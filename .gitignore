@@ -1,0 +1,49 @@
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env*
+!.env.example
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: Vercel
+.vercel/
+
+# Optional: testing / coverage
+coverage/
+*.lcov
+
+# Optional: local database / tooling
+*.sqlite
+*.local
+
+# Optional: Mac system files
+.AppleDouble
+.LSOverride
+
+# Optional: next-image-export-optimizer
+public/images-optimized/

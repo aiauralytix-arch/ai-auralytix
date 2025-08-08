@@ -18,7 +18,7 @@ export default function DataEngineeringPage() {
           <p className="text-muted-foreground">Design and operate robust pipelines with observability, governance, and quality baked-in.</p>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-glass">
-          <Image src="/images/solutions-data.png" width={1200} height={800} alt="Data engineering visualization" />
+          <Image src="https://img.freepik.com/free-psd/3d-rendering-graphic-design_23-2149642708.jpg?t=st=1754680136~exp=1754683736~hmac=40b5d8ce858bb9358ea0f8a122940addba5c4d7a1524218bd50b6e2ef8e22b29&w=2000" width={1200} height={800} alt="Data engineering visualization" />
         </div>
       </div>
     </Container>

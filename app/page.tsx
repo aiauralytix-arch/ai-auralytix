@@ -47,7 +47,7 @@ export default function HomePage() {
               <Card className="rounded-3xl overflow-hidden shadow-glass border-border/60">
                 <CardContent className="p-0">
                   <Image
-                    src="/images/hero-3d.png"
+                    src="https://img.freepik.com/free-photo/technology-hologram-illustrated_23-2151877731.jpg?t=st=1754679558~exp=1754683158~hmac=47545aa933567cdeaa3bf21a286a9ca18cafdaec6aeb5330cb97837be3b784b4&w=2000"
                     width={1200}
                     height={800}
                     alt="Abstract 3D visualization representing AI systems"

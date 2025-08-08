@@ -19,7 +19,7 @@ export default function AiProductPage() {
           <p className="text-muted-foreground">From discovery to launch, we build AI-first products that delight users and drive outcomes.</p>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-glass">
-          <Image src="/images/solutions-ai.png" width={1200} height={800} alt="AI product development visualization" />
+          <Image src="https://img.freepik.com/free-photo/person-working-animation-porject_23-2149269908.jpg?t=st=1754680045~exp=1754683645~hmac=55ebb37a81369ea712ba51cd0b2f93e6185f881da7c768472a3d098192089298&w=2000" width={1200} height={800} alt="AI product development visualization" />
         </div>
       </div>
       <Timeline items={[

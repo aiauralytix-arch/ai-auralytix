@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="container-base py-12 grid gap-8 md:grid-cols-4">
         <div className="space-y-4">
           <div className="flex items-center gap-2">
-            <Image src="/images/logo-mark.png" width={28} height={28} alt="Auralytix AI logo" className="rounded-lg" />
+            <Image src="/images/auralytics logo.png" width={28} height={28} alt="Auralytix AI logo" className="rounded-lg" />
             <span className="font-semibold">Auralytix AI</span>
           </div>
           <p className="text-sm text-muted-foreground">
@@ -37,16 +37,14 @@ export function SiteFooter() {
           ["About", "/about"],
           ["Careers", "/careers"],
           ["Partners", "/partners"],
-          ["Customers", "/customers"],
+          ["Teach Stack", "/tech-stack"],
           ["Press", "/press"],
           ["Contact", "/contact"],
         ]} />
         <FooterCol title="Resources" links={[
-          ["Blog", "/resources/blog"],
           ["Guides", "/resources/guides"],
           ["Whitepapers", "/resources/whitepapers"],
           ["Webinars", "/resources/webinars"],
-          ["Docs", "/docs"],
           ["Changelog", "/changelog"],
           ["Status", "/status"],
           ["Security & Compliance", "/security"],
@@ -55,8 +53,12 @@ export function SiteFooter() {
       </div>
       <div className="container-base border-t py-6 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3 text-muted-foreground">
-          <Image src="/images/badge-soc2.png" width={28} height={28} alt="SOC 2-like badge" />
-          <Image src="/images/badge-iso27001.png" width={28} height={28} alt="ISO 27001-like badge" />
+          <span className="px-2 py-1 text-[10px] font-medium rounded-full bg-green-100 text-green-700 dark:bg-green-900 dark:text-green-300">
+            SOC 2
+          </span>
+          <span className="px-2 py-1 text-[10px] font-medium rounded-full bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300">
+            ISO 27001
+          </span>
           <span className="text-xs">Compliance-ready (static badges)</span>
         </div>
         <div className="flex items-center gap-4 text-muted-foreground">
