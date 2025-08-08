@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Design tokens */
+:root {
+  --radius: 16px;
+  --shadow: 0 8px 30px rgba(0,0,0,0.06);
+  --container: 1200px;
+}
+
+.dark {
+  --shadow: 0 8px 30px rgba(0,0,0,0.4);
+}
+
+/* Utilities */
+.container-base {
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: 1rem;
+}
+
+.shadow-glass {
+  box-shadow: var(--shadow);
+}
+
+/* Prose tweaks */
+.prose :where(img):not(:where([class~="not-prose"] *)) {
+  border-radius: 12px;
+}
+
+/* Rounded tokens usage examples
+   Use with Tailwind arbitrary values: rounded-[var(--radius)]
+*/
