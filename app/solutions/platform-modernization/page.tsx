@@ -18,7 +18,7 @@ export default function PlatformModernizationPage() {
           <p className="text-muted-foreground">Decompose monoliths, adopt containers, and automate delivery to move faster with confidence.</p>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-glass">
-          <Image src="https://img.freepik.com/free-vector/application-development-banner-with-mobile-phone-conveyor-line_39422-598.jpg?t=st=1754680108~exp=1754683708~hmac=e925b7f95b7640825809da6534376dbcf910229a6f5327f7b0080e11fe013d76&w=2000" width={1200} height={800} alt="Platform modernization visualization" />
+          <Image src="https://img.freepik.com/free-vector/application-development-banner-with-mobile-phone-conveyor-line_39422-598.jpg" width={1200} height={800} alt="Platform modernization visualization" />
         </div>
       </div>
     </Container>

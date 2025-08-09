@@ -18,7 +18,7 @@ export default function MlopsPage() {
           <p className="text-muted-foreground">Automate model lifecycle, monitor drift, and ensure safe, compliant operations.</p>
         </div>
         <div className="rounded-2xl overflow-hidden border shadow-glass">
-          <Image src="https://img.freepik.com/free-photo/body-temperature-coronavirus-pandemic-thermal-image_53876-96156.jpg?t=st=1754680162~exp=1754683762~hmac=002957ca4657873f96fbc5c71762ba24b1dd43d1d89f9a1fe12002aba6d92b8a&w=2000" width={1200} height={800} alt="MLOps visualization" />
+          <Image src="https://img.freepik.com/free-photo/body-temperature-coronavirus-pandemic-thermal-image_53876-96156.jpg" width={1200} height={800} alt="MLOps visualization" />
         </div>
       </div>
     </Container>

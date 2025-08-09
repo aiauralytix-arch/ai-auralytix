@@ -2,7 +2,7 @@ export const caseStudies = [
   {
     title: "Real-time Fraud Detection for Card Payments",
     slug: "fraud-detection-card-payments",
-    image: "https://img.freepik.com/free-vector/phishing-account-concept-with-envelope-credit-card_23-2148555136.jpg?t=st=1754680600~exp=1754684200~hmac=20cbf2f9aa6f81cb480c7345677d88f2288ee9042162626be60d76768a146a37&w=2000",
+    image: "https://img.freepik.com/free-vector/phishing-account-concept-with-envelope-credit-card_23-2148555136.jpg",
     industry: "Fintech",
     tech: ["GenAI", "Streaming"],
     excerpt: "Cut chargebacks and accelerate approvals with explainable models.",
@@ -18,7 +18,7 @@ export const caseStudies = [
   {
     title: "Personalized Offers Engine for Retail",
     slug: "retail-personalization-engine",
-    image: "https://img.freepik.com/free-vector/customers-buying-goods-sale_74855-2374.jpg?t=st=1754680626~exp=1754684226~hmac=d429fc8e52458cd05dfef251735299a2abae13c92cc4ab8198f0eafb8a497e21&w=2000",
+    image: "https://img.freepik.com/free-vector/customers-buying-goods-sale_74855-2374.jpg",
     industry: "Retail",
     tech: ["Recommenders", "ETL"],
     excerpt: "Next-best-action offers across channels.",
@@ -34,7 +34,7 @@ export const caseStudies = [
   {
     title: "Dynamic Routing & ETA for Fleet Ops",
     slug: "routing-eta-fleet",
-    image: "https://img.freepik.com/free-vector/automated-logistics-isometric-landing-page_107791-1129.jpg?t=st=1754680660~exp=1754684260~hmac=b902a9b6c5edc0d9fae44ad70b0e52a18e63f7e9b831e33abe98b3f1365dd4de&w=2000",
+    image: "https://img.freepik.com/free-vector/automated-logistics-isometric-landing-page_107791-1129.jpg",
     industry: "Logistics",
     tech: ["Forecasting", "Observability"],
     excerpt: "Accurate ETAs and fuel-optimized routes.",
