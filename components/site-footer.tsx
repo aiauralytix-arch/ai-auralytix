@@ -62,12 +62,12 @@ export function SiteFooter() {
           <span className="text-xs">Compliance-ready (static badges)</span>
         </div>
         <div className="flex items-center gap-4 text-muted-foreground">
-          <Link href="https://github.com" aria-label="GitHub" target="_blank" rel="noreferrer" className="hover:text-foreground">
+          {/* <Link href="https://github.com" aria-label="GitHub" target="_blank" rel="noreferrer" className="hover:text-foreground">
             <Github className="h-4 w-4" />
-          </Link>
-          <Link href="https://twitter.com" aria-label="Twitter/X" target="_blank" rel="noreferrer" className="hover:text-foreground">
+          </Link> */}
+          {/* <Link href="https://twitter.com" aria-label="Twitter/X" target="_blank" rel="noreferrer" className="hover:text-foreground">
             <Twitter className="h-4 w-4" />
-          </Link>
+          </Link> */}
           <Link href="https://linkedin.com" aria-label="LinkedIn" target="_blank" rel="noreferrer" className="hover:text-foreground">
             <Linkedin className="h-4 w-4" />
           </Link>

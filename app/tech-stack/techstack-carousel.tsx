@@ -67,7 +67,7 @@ export default function TechStackCarousel({
                                 alt={logo.name}
                                 width={height}
                                 height={height}
-                                className="h-10 w-auto object-contain md:h-12"
+                                className="h-10 w-auto object-contain md:h-12 p-2"
                                 loading={idx < logos.length ? "eager" : "lazy"}
                                 decoding="async"
                             />

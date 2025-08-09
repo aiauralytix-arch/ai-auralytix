@@ -7,8 +7,6 @@ import { useMemo, useState } from "react"
 import { SkeletonGrid } from "@/components/skeleton-grid"
 import { Badge } from "@/components/ui/badge"
 
-export const metadata = { title: "Case Studies — Auralytix AI", description: "Problem → Approach → Impact" }
-
 const industries = ["All", "Fintech", "Healthcare", "Retail", "Logistics"] as const
 
 export default function CaseStudiesPage() {

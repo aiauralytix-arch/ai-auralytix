@@ -1,10 +1,5 @@
 import { Container } from "@/components/container"
 
-export const metadata = {
-  title: "Privacy Policy — Auralytix AI",
-  description: "Privacy practices and data protection commitments.",
-}
-
 export default function PrivacyPage() {
   const sections = [
     {

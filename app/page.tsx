@@ -68,7 +68,7 @@ export default function HomePage() {
             <ServiceCard icon={<Rocket className="h-5 w-5" />} title="AI Product Development" desc="Ship AI-first web & native apps." href="/solutions/ai-product-development" />
             <ServiceCard icon={<Database className="h-5 w-5" />} title="Data Engineering" desc="Pipelines, quality, governance." href="/solutions/data-engineering" />
             <ServiceCard icon={<LineChart className="h-5 w-5" />} title="MLOps & Observability" desc="Operate reliable models at scale." href="/solutions/mlops-observability" />
-            <ServiceCard icon={<Shield className="h-5 w-5" />} title="Platform Modernization" desc="Secure, cloud-native, cost-optimized." href="/solutions/platform-modernization" />
+            <ServiceCard icon={<Shield className="h-5 w-5" />} title="Platform Modernization" desc="Cloud-native, cost-optimized." href="/solutions/platform-modernization" />
           </div>
         </Container>
       </section>
